@@ -2,10 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>QRCode Reader</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/011c6bcd64.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-    <h1>Testing!!! Please wait for more notice</h1>
+    <div class="wrapper">
+        <form action="#">
+            <input type="file" hidden>
+            <img src="" alt="">
+            <div class="content">
+                <i class="fa-solid fa-cloud-upload">
+                    <p>Upload QR Code to Scan</p>
+                </i>
+            </div>
+        </form>
+        <div class="details">
+            <textarea disabled></textarea>
+            <div class="buttons">
+            <button class="close">Close</button>
+            <button class="copy">Copy Text</button>
+        </div>
+        </div>
+        <script src="script.js"></script>
+    </div>
+    <a href='https://docs.google.com/presentation/d/1GqrLeRyMa_z4ESZjs1kmmyboGIcP4JjR/edit?usp=sharing&ouid=112400785939914960500&rtpof=true&sd=true'>簡報</a>
 </body>
 </html>
